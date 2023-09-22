@@ -1,2 +1,38 @@
-# mergesort
- Merge Sort Projesi 
+# Veri yapılar ve Algoritmalar
+## Merge Sort Projesi - Proje 2
+
+
+ 
+# [16,21,11,8,12,22] -> Merge Sort
+
+# Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
+
+Dizideki elemanları bölerek bu bölümler içerisinde  sıralama yapan bir yöntemdir. En son haliyle bölümler birleştirilerek son sıralama şeklini alır.
+
+ [16,21,11,8,12,22] 
+ 
+ [16,21,11]<--------->[8,12,22]
+ 
+ [16]<--------->[21,11]<--------->[8]<--->[12,22]
+ 
+ [16]<--------->[21]<--------->[11]<--------->[8]<--------->[12]<--------->[22]
+ 
+ [16]<--------->[11,21]<--------->[8]<--------->[12,22]
+ 
+ [11,16,21]<--------->[8,12,22]
+ 
+ [8,11,12,16,21,22]
+
+
+# Big-O gösterimini yazınız.
+
+
+Divide (Böl)
+Conquer(Fethet)
+Merge(Birleştir)
+
+adımlarından sonra sonuç olarak Big-O(nlogn) gösterimini alır
+
+
+
+
